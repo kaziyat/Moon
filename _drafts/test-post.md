@@ -12,3 +12,11 @@ tag:
   - theme
 comments: true
 ---
+
+Cool content![](/assets/img/placeholder-big.jpg)
+
+&nbsp;
+
+> lorem ipsum
+
+&nbsp;
