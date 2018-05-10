@@ -13,7 +13,9 @@ tag:
 comments: true
 ---
 
-Cool content![](/assets/img/placeholder-big.jpg)
+Cool content!
+
+[](https://images.unsplash.com/photo-1495419529704-4964710cbcdc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=769b52d9b2e7e32018efa3e3f7adc5e5&auto=format&fit=crop&w=2886&q=80)
 
 &nbsp;
 
