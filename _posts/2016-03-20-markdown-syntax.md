@@ -16,6 +16,12 @@ comments: true
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
+<figure class="half">
+    <a href="/images/image-filename-1-large.jpg"><img src="https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/03/2015FooFighters_EM__017140115-3.jpg"></a>
+    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
+    <figcaption>Caption describing these two images.</figcaption>
+</figure>
+
 # Heading 1
 
 ## Heading 2
