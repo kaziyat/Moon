@@ -9,7 +9,7 @@ tag:
 - sample
 - test
 - jekyll
-comments: true
+categories: [Слово имама]
 ---
 
 ## HTML Elements

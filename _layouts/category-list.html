@@ -1,0 +1,46 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+{% include nav.html %}
+<!-- Header -->
+<header class="header" role="banner">
+    <div class="wrapper animated fadeIn">
+        <div class="content">
+            <div class="post-title">
+                <h1>{{ page.title }}</h1>
+                <a class="btn zoombtn" href="./">
+                    <i class="fa fa-home"></i>
+                </a>
+            </div>
+            <div class="post-list">
+                <ul>
+                    {% assign categories_list = site.categories %}
+                    {% if categories_list.first[0] == null %}
+                    {% for category in categories_list %}
+                    <li><a href="category/{{ category | slugify }}">{{ category | capitalize }}</a></li>
+                    {% endfor %}
+                    {% else %}
+                    {% for category in categories_list %}
+                    <li><a href="category/{{ category[0] | downcase }}">{{ category[0] | capitalize }}</a></li>
+                    {% endfor %}
+                    {% endif %}
+                    {% assign categories_list = nil %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+{% include scripts.html %}
+<script src="./assets/js/wow.min.js"></script>
+<script type="text/javascript">(new WOW).init();</script>
+</body>
+</html>

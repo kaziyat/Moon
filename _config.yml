@@ -1,17 +1,17 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
+title:              Казыят
+bio:                РОО 'Ногайская община'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
+locale:             ru_RU
 url:                http://kaziyat.ru
 
 # Jekyll
-permalink:          /:title/
+permalink:          /post/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -20,7 +20,7 @@ kramdown:
   entity_output:    as_char
   toc_levels:       1..6
   enable_coderay:   false
-mathjax:            true
+mathjax:            false
 sass:
   sass_dir:         _sass
   style:            compressed
@@ -38,9 +38,9 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
-github-url:         username
+#twitter:            username
+#facebook:           username
+#github-url:         username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
@@ -50,7 +50,7 @@ instagram:          noghay_world
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
@@ -61,6 +61,7 @@ steam:              username
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
+vk:                 noghayhalk
 
 # Gems
 gems:

@@ -1,6 +1,7 @@
 ---
 layout: post-list
-title: All Posts
+title: Все посты
 excerpt: "A List of Posts"
 comments: false
+all: true
 ---
