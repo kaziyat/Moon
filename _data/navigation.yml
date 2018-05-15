@@ -1,7 +1,10 @@
 # Site navigation links
 
-- title: Мечети
-  url: /mosques/
+- title: Ссылки
+  url: /extrefs/
 
 - title: Коран
   url: /quran/
+
+- title: Мечети
+  url: /mosques/
