@@ -104,20 +104,14 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
+    background: $white;
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark, 0.3);
-	background-image: url("/assets/img/header.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-color: #fab24c;
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
 		padding: 2em 0;
-		box-shadow: none;
-		background: $white;
 	}
 }
 #disqus_thread {
