@@ -34,6 +34,7 @@ layout: compress
                     </ul>
                     {% endfor %}
                     {% else %}
+                    {% unless site.categories[page.category] == null %}
                     {% assign posts = site.categories[page.category] | sort: "date" | reverse %}
                     {% for post in posts %}
                     <ul>
@@ -44,6 +45,7 @@ layout: compress
                         </li>
                     </ul>
                     {% endfor %}
+                    {% endunless %}
                     {% endunless %}
                 </div>
             </div>

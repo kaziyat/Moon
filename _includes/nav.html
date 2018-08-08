@@ -5,9 +5,19 @@
 			<li>
 				<a href="#">Рубрики</a>
 				<ul class="dl-submenu">
-					{% for cat in site.categories %}
-					<li><a href="./category/{{cat[0]}}">{{cat[0]}}</a></li>
-					{% endfor %}
+					<li><a href="./category/Это актуально">Это актуально</a></li>
+					<li>
+						<a href="#">Слово имама</a>
+						<ul class="dl-submenu">
+							<li><a href="./category/Слово имама/Файзрахман Эсенов">Файзрахман Эсенов</a></li>
+							<li><a href="./category/Слово имама/Темирбек Байдаров">Темирбек Байдаров</a></li>
+							<li><a href="./category/Слово имама/Рашид Акказиев">Рашид Акказиев</a></li>
+							<li><a href="./category/Слово имама/Мухаммад Атангулов">Мухаммад Атангулов</a></li>
+							<li><a href="./category/Слово имама/Ибрагим Дадиков">Ибрагим Дадиков</a></li>
+						</ul>
+					</li>
+					<li><a href="./category/Ислам и призыв">Ислам и призыв</a></li>
+					<li><a href="./category/Статьи">Статьи</a></li>
 				</ul>
 			</li>
 			{% for link in site.data.navigation %}
