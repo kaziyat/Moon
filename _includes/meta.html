@@ -1,7 +1,7 @@
 <br>
 <hr>
 <!--<span class="entry-tags">{% for tag in page.tags %}<a href="./tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>-->
-<span class="entry-tags">{% for cat in page.categories %}<a href="./category/{{ cat }}" title="Pages tagged {{ cat }}" class="tag"><span class="term">{{ cat }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
+<span class="entry-tags">{% for cat in page.categories %}<a {% if cat == "Рашид Акказиев" or cat == "Мухаммад Атангулов" or cat == "Ибрагим Дадиков" or cat == "Файзрахман Эсенов" or cat == "Темирбек Байдаров" %} href="./category/Слово имама/{{ cat }}" {% else %} href="./category/{{ cat }}" {% endif %} title="{{ cat }}" class="tag"><span class="term">{{ cat }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
 <span class="social-share">
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url}}{{ page.url }}" title="Share on Facebook" class="tag">
         <span class="term"><i class="fa fa-facebook-square"></i> Поделиться</span>
