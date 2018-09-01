@@ -1,37 +1,22 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: О нас
+tags: [О нас]
+date: 2018-08-21
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+МРОМ «Казыят» является структурным подразделением Духовного Управления мусульман города Москвы и Духовного Управления мусульман Российской Федерации, которое создано для содействия религиозному просвещению мусульман, проживающих в Москве и по всей России, с целью возрождения духовных ценностей Ислама, профилактики нетерпимости и экстремизма, интегрирования мусульман в современное общество с сохранением своих традиций, культуры и религиозной практики.
 
-## Preview
+На сайте МРОМ «Казыят» будут освещаться актуальные для современных мусульман темы, публиковаться статьи, аудио- и видеопроповеди имамов, работающих в структурах официальных Духовных Управлений мусульман России. В деятельности МРОМ «Казыят» значительное внимание будет уделяться религиозному просвещению ногайского народа ввиду его большой территориальной раздробленности.
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+При использовании материалов сайта ссылка на <a href="http://kaziyat.ru">kaziyat.ru</a> обязательна. Электронный адрес для обратной связи с МРОМ «Казыят»: <a href="mailto:mrom.kaziyat@gmail.com">mrom.kaziyat@gmail.com</a>
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
-## Getting Started
+Посетителям нашего сайта
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+Мир вам и милость Всевышнего Творца, дорогие посетители нашего сайта! Мы рады Вашему посещению! Если Вы мусульманин - у нас обязательно найдётся полезная информация, необходимая для духовного роста или конструктивного размышления, а если Вы иного вероисповедания – то сможете расширить свой кругозор познаниями о своих согражданах-мусульманах и об их религии, раскрыв для себя еще одну грань Ислама и жизни мусульман. Ведь чем больше мы узнаем друг друга, тем лучше и плодотворнее наше сотрудничество. А конструктивное сотрудничество и взаимоуважение граждан нашей многонациональной и многоконфессиональной страны — основа укрепления и процветания нашей общей Родины — Великой России.
+Итак, в добрый путь, дорогой гость – в путешествие по нашему сайту!
+
+
+Председатель МРОМ «Казыят» Рашид-хазрат Акказиев
